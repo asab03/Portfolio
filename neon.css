@@ -347,7 +347,7 @@ button:hover {
 }
 .email:hover {
   color: #000;
-  transition-delay: 1s;
+  transition-delay: 0.8s;
 }
 button:hover span:nth-child(1) {
   animation: leftLine 0.5s linear 0s;
