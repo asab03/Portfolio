@@ -304,6 +304,10 @@ button {
   padding: 15px 50px;
   overflow: hidden;
 }
+.email {
+  color: #ff178f;
+}
+
 button span {
   position: absolute;
 }
@@ -339,6 +343,10 @@ button:hover {
   color: #000;
   box-shadow: 0 0 10px #ff178f, 0 0 40px #ff178f, 0 0 80px #ff178f;
   background: #ff178f;
+  transition-delay: 1s;
+}
+.email:hover {
+  color: #000;
   transition-delay: 1s;
 }
 button:hover span:nth-child(1) {
