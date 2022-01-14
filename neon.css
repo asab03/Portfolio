@@ -172,6 +172,7 @@ a {
   background-image: url(./images/studio89.PNG);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   opacity: 0.7;
 }
 
@@ -179,6 +180,7 @@ a {
   background-image: url(./images/Travelo.PNG);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   opacity: 0.7;
 }
 
@@ -186,6 +188,7 @@ a {
   background-image: url(./images/logistique.PNG);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   opacity: 0.7;
 }
 .btn h1 {
@@ -199,22 +202,6 @@ a {
 .pj3 .main_text {
   grid-area: b;
 }
-.btn3::before {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  content: "";
-  background-image: url(./images/logistique.PNG);
-  background-size: cover;
-  background-repeat: no-repeat;
-  opacity: 0;
-  transition: 0.5s;
-}
-.btn3:hover::before {
-  opacity: 0.7;
-}
 
 .pj2 {
   position: relative;
@@ -226,22 +213,6 @@ a {
 }
 .pj2 .main_text {
   grid-area: a;
-}
-.btn2::before {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  content: "";
-  background-image: url(./images/Travelo.PNG);
-  background-size: cover;
-  background-repeat: no-repeat;
-  opacity: 0;
-  transition: 0.5s;
-}
-.btn2:hover::before {
-  opacity: 0.7;
 }
 
 .main_text {
