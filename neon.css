@@ -442,11 +442,11 @@ footer {
     flex-direction: column;
     scroll-behavior: smooth;
     scroll-snap-type: y mandatory;
+    cursor: default;
   }
   body {
     display: flex;
     overflow-x: hidden;
-    cursor: pointer;
   }
   header {
     background: url(images/Wall.jpg);
@@ -491,6 +491,7 @@ footer {
     color: #ebfffb;
     text-decoration: none;
     margin-bottom: 5px;
+    cursor: pointer;
   }
   a:hover {
     color: #ff178f;
@@ -605,6 +606,7 @@ footer {
   }
   .btn {
     background-image: none;
+    cursor: pointer;
   }
   .btn1::before {
     position: absolute;
