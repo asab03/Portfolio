@@ -8,8 +8,6 @@ body {
   background: black;
   font-family: "Zen Kurenaido", sans-serif;
   flex-direction: column;
-  scroll-behavior: smooth;
-  scroll-snap-type: y mandatory;
 }
 body {
   display: flex;
