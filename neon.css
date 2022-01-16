@@ -428,6 +428,7 @@ footer {
     bottom: 100%;
   }
 }
+/*Format desktop*/
 @media screen and (min-width: 1100px) {
   * {
     margin: 0;

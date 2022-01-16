@@ -21,6 +21,8 @@ redirectPj3.addEventListener("click", () => {
   window.open("https://github.com/asab03/todolist");
 });
 
+/* Redirection vers page github en touchant les images sur mobile
+
 const redirectPj1T = document.querySelector(".btn1");
 redirectPj1T.addEventListener("touchstart", () => {
   window.open("https://github.com/asab03/Home-Travel");
@@ -32,4 +34,4 @@ redirectPj2T.addEventListener("touchstart", () => {
 const redirectPj3T = document.querySelector(".btn3");
 redirectPj3T.addEventListener("touchstart", () => {
   window.open("https://github.com/asab03/todolist");
-});
+});*/
